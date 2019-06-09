@@ -9,4 +9,4 @@ Created in KMLA Discrete Mathematics Class as a *personal extra project*.
 * Therefore it's super fast!
 
 ### Note
-Expand the length of predefined `data` list to find values bigger than 100.
+Expand the length of predefined `data` list if `n` is bigger than 99.
