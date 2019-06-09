@@ -1,7 +1,7 @@
 # `set.py` and `partition.py`
 
-Script code for finding Set Number `S(n,k)` and Partition Number `p(n,k)`.
-Created in KMLA Discrete Mathematics Class as an *personal extra project*.
+Python code for finding Set Number `S(n,k)` and Partition Number `p(n,k)`.  
+Created in KMLA Discrete Mathematics Class as a *personal extra project*.
 
 ### Notable strengths
 * Employs recursion.
@@ -9,4 +9,4 @@ Created in KMLA Discrete Mathematics Class as an *personal extra project*.
 * Therefore it's super fast!
 
 ### Note
-Expand the length of predefined `data` list to find bigger values than 100.
+Expand the length of predefined `data` list to find values bigger than 100.
