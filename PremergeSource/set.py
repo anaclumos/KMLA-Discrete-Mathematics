@@ -1,13 +1,13 @@
-data = []
+dataForSet = []
 
 for x in range(100):
 	arr = []
 	for y in range(100):
 		arr.append(0)
-	data.append(arr)
+	dataForSet.append(arr)
 
 def insert(n, k, value):
-	data[n][k] = value
+	dataForSet[n][k] = value
 
 def C(a, b):
 	ans = 1
@@ -20,8 +20,8 @@ def C(a, b):
 def S(n, k):
 	if n < k:
 		ans = 0
-	if data[n][k] != 0:
-		ans = data[n][k]
+	if dataForSet[n][k] != 0:
+		ans = dataForSet[n][k]
 		print("remember : S(" + str(n) + ", " + str(k) + ") is " + str(ans))
 	else:	
 		if n == k:

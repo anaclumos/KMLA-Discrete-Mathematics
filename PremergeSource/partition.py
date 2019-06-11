@@ -1,20 +1,20 @@
-data = []
+dataForPartition = []
 
 for x in range(100):
 	arr = []
 	for y in range(100):
 		arr.append(0)
-	data.append(arr)
+	dataForPartition.append(arr)
 
 def insert(n, k, value):
-	data[n][k] = value
+	dataForPartition[n][k] = value
 
 def p(n, k):
 	if n < k:
 		return 0
 
-	if data[n][k] != 0:
-		ans = data[n][k]
+	if dataForPartition[n][k] != 0:
+		ans = dataForPartition[n][k]
 		print("remember : p(" + str(n) + ", " + str(k) + ") is " + str(ans))
 	else:
 		if n == k:
