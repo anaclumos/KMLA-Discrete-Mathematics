@@ -1,5 +1,7 @@
 # `set.py` and `partition.py`
 
+### [Click to view code](/main.py) or [Click to execute online](https://discretemathematics.anaclumos.repl.run)
+
 Python code for finding Set Number `S(n,k)` and Partition Number `p(n,k)`.  
 Created in KMLA Discrete Mathematics Class as a *personal extra project*.
 
